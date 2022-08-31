@@ -11,7 +11,7 @@ spec:
       labels:
         app: recommendationservice
     spec:
-      serviceAccountName: boutique
+      serviceAccountName: default
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
