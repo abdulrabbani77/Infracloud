@@ -3,7 +3,7 @@
 [osboxes@osboxes boutique-assignment]$ kubectl get nodes</br>
 NAME &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                   STATUS&emsp;&emsp;&emsp;  ROLES &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  AGE &emsp;&emsp;&emsp;  VERSION</br>
 qa-cluster-control-plane&emsp;&emsp;Ready   &emsp;&emsp;&emsp; control-plane,master  &emsp; 5m4s  &emsp;&emsp;&emsp; v1.20.7</br>
-qa-cluster-worker   &emsp;&emsp;&emsp;&emsp;&emsp;Ready &emsp;&emsp;&emsp;   <none>    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;            4m1s &emsp;&emsp;&emsp; &emsp;  v1.20.7</br>
+qa-cluster-worker   &emsp;&emsp;&emsp;&emsp;&emsp;Ready &emsp;&emsp;&emsp;   <none>    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;            4m1s &emsp;&emsp;&emsp;  v1.20.7</br>
 [osboxes@osboxes boutique-assignment]$
 
 
