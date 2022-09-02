@@ -1,9 +1,9 @@
 **Assignment- Part-A - Setup the cluster**
 
 [osboxes@osboxes boutique-assignment]$ kubectl get nodes</br>
-NAME &emsp;&emsp;   &emsp;                   STATUS &ensp;  ROLES &emsp;                 AGE &ensp;  VERSION</br>
-qa-cluster-control-plane   Ready    control-plane,master   5m4s   v1.20.7</br>
-qa-cluster-worker          Ready    <none>                 4m1s   v1.20.7</br>
+NAME &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                   STATUS&emsp;&emsp;&emsp;  ROLES &emsp;&emsp;&emsp;  AGE &emsp;&emsp;&emsp;  VERSION</br>
+qa-cluster-control-plane&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   Ready   &emsp;&emsp;&emsp; control-plane,master  &emsp;&emsp;&emsp; 5m4s  &emsp;&emsp;&emsp; v1.20.7</br>
+qa-cluster-worker   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;       Ready &emsp;&emsp;&emsp;   <none>    &emsp;&emsp;&emsp;             4m1s &emsp;&emsp;&emsp;   v1.20.7</br>
 [osboxes@osboxes boutique-assignment]$
 
 
