@@ -1,4 +1,4 @@
-Assignment- Part-A - Setup the cluster
+**Assignment- Part-A - Setup the cluster**
 
 [osboxes@osboxes boutique-assignment]$ kubectl get nodes</br>
 NAME &emsp;&emsp;   &emsp;                   STATUS &ensp;  ROLES &emsp;                 AGE &ensp;  VERSION</br>
@@ -7,7 +7,7 @@ qa-cluster-worker          Ready    <none>                 4m1s   v1.20.7</br>
 [osboxes@osboxes boutique-assignment]$
 
 
-Assignment- Part-B - Deployment Issues.
+**Assignment- Part-B - Deployment Issues**
 
 1. Issue  : redis-cart pod was in pending state
    Reason : 1 node(s) didn't match Pod's node affinity, 1 node(s) had taint {node-role.kubernetes.io/master: }, that the pod didn't tolerate.
@@ -25,10 +25,7 @@ Assignment- Part-B - Deployment Issues.
    Fix    : Edited the "recommendationservice.yaml" deployment file with serviceAccountName to default from boutique.
             command used to apply the modified changes - "kubectl apply -f recommendationservice.yaml"
 		   
-
-
-
-Assignment- Part-C - Application Issues.
+**Assignment- Part-C - Application Issues**
 
 1. port-forward
 2. modified currencyservice port to 7000 in currency deployment file
@@ -38,8 +35,6 @@ Unable to access the application.
 
 https://developers.google.com/accounts/docs/application-default-credentials
 project ID must be specified in the configuration if running outside of GCP
-
-
 
 
 
