@@ -1,9 +1,9 @@
 Assignment- Part-A - Setup the cluster
 
 [osboxes@osboxes boutique-assignment]$ kubectl get nodes</br>
-NAME                       STATUS   ROLES                  AGE    VERSION
-qa-cluster-control-plane   Ready    control-plane,master   5m4s   v1.20.7
-qa-cluster-worker          Ready    <none>                 4m1s   v1.20.7
+NAME                       STATUS   ROLES                  AGE    VERSION</br>
+qa-cluster-control-plane   Ready    control-plane,master   5m4s   v1.20.7</br>
+qa-cluster-worker          Ready    <none>                 4m1s   v1.20.7</br>
 [osboxes@osboxes boutique-assignment]$
 
 
